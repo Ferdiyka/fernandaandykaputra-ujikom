@@ -10,27 +10,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:background="#BB86FC"
+        android:gravity="center"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="210dp"
             android:layout_height="210dp"
-            android:src="@drawable/logo"/>
+            android:src="@drawable/logo" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aplikasi"
-            android:textSize="25dp"
-            android:textStyle="bold"
             android:layout_marginTop="25dp"
-            />
+            android:background="#BB86FC"
+            android:backgroundTint="#BB86FC"
+            android:text="Aplikasi Biodata Pegawai"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp" />
     </LinearLayout>
 
-    <ProgressBar
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="15dp"/>
 </RelativeLayout>
